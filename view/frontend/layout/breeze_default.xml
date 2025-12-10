@@ -13,7 +13,7 @@
                             <!-- Fix "Unable to resolve dependency" error, because Amasty forgot to return value form the file -->
                             <item name="Amasty_Preorder/js/product/preorder_configurable_list" xsi:type="array">
                                 <item name="path" xsi:type="string">Amasty_Preorder/js/product/preorder_configurable_list</item>
-                                <item name="global" xsi:type="string">$.breezemap.amastyPreorderList</item>
+                                <item name="global" xsi:type="string">$.breezemap.amastyPreorderConfigurable</item>
                             </item>
                         </item>
                     </item>
