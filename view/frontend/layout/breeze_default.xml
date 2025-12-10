@@ -10,6 +10,7 @@
                 <argument name="bundles" xsi:type="array">
                     <item name="dynamic" xsi:type="array">
                         <item name="items" xsi:type="array">
+                            <!-- Fix "Unable to resolve dependency" error, because Amasty forgot to return value form the file -->
                             <item name="Amasty_Preorder/js/product/preorder_configurable_list" xsi:type="array">
                                 <item name="path" xsi:type="string">Amasty_Preorder/js/product/preorder_configurable_list</item>
                                 <item name="global" xsi:type="boolean">$.breezemap.amastyPreorderList</item>
